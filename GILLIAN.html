@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="description" content="Webpage description goes here" />
+  <meta charset="utf-8">
+  <title>Change_me</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+
+<body>
+  
+<div class="container">
+  
+</div>
+<button id="hello_button" style = 'color:green; background-color:white;'>HELLO</button>
+<button id="goodbye_button" style = 'color: red; background-color: white;'>GOODBYE</button>
+
+<script>
+function myFunction1()
+{console.log('CLICK ME')}
+
+var element1 = document.getElementById("hello_button");
+element1.addEventListener("click", myFunction1);
+
+  function myFunction2()
+  {console.log('DO NOT CLICK ME')}
+
+  var element2 = document.getElementById("goodbye_button")
+  element2.addEventListener("click", myFunction2);
+
+</script>
+
+</body>
+</html>
